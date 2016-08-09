@@ -37,11 +37,11 @@ public class MapleSecurity {
 	public static String getRandomHWID() {
 		Random r = new Random();
 		StringBuffer buf = new StringBuffer();
-		buf.append("FUCK_");
+		buf.append("ABCD_");
 		for(int i = 0;i < 8;i++){
 			buf.append(r.nextInt(10));
 		}
-		buf.append("_THE_RULES");
+		buf.append("_ABC_ABCDE");
 		return buf.toString();
 	}
 	
